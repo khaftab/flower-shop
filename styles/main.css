@@ -54,6 +54,11 @@ body {
   border: none;
 }
 
+.button:hover {
+  cursor: pointer;
+  background-color: #e55473c7;
+}
+
 /************** Hero section **************/
 
 /*------------- Featured flower section -------------*/
@@ -133,12 +138,47 @@ body {
 
 /************** Featured flower section **************/
 
+/*------------- Top selling section -------------*/
+
+.top-selling-section .top-selling-container {
+  width: 77%;
+  margin: 0 auto;
+  margin-top: 85px;
+}
+
+.top-selling-section .top-selling-container .card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.top-selling-section .top-selling-container .card {
+  width: 100%;
+}
+.top-selling-section .top-selling-container .card figure {
+  height: 280px;
+  width: 240px;
+}
+.top-selling-section .top-selling-container .card img {
+  width: 100%;
+  height: 100%;
+}
+.top-selling-section .top-selling-container h2 {
+  text-align: center;
+}
+.top-selling-section .top-selling-container p {
+  margin: 12px 0;
+}
+.top-selling-section .top-selling-container .add-to-cart-btn {
+  margin-right: 25px;
+}
+/************** Top selling section **************/
+
 /*------------- Promise section -------------*/
 
 .promise-section {
   width: 77%;
   background-color: #27272715;
-  margin: 35px auto;
+  margin: 55px auto;
   text-align: center;
 }
 
@@ -159,8 +199,9 @@ body {
 
 .promise-section .promise-box-container .promise-box p {
   margin-top: 15px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
+  color: #272727bc;
 }
 
 /************** Promise section **************/
@@ -235,7 +276,9 @@ body {
   font-size: 15px;
   width: 480px;
   margin: 15px auto;
-  font-weight: 350;
+  font-weight: 500;
+  color: #27272798;
+  line-height: 23px;
 }
 
 /************** Instagram section **************/
@@ -273,6 +316,7 @@ body {
   margin: 12px 0;
   font-weight: 400;
   font-size: 13px;
+  color: #27272798;
 }
 
 /************** Newsletter section **************/
