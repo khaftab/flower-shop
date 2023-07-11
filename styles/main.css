@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+/*------------- Hero section -------------*/
+
+.hero-container {
+  background-color: #e554731a;
+}
+
+.hero-section {
+  width: 77%;
+  min-height: 90vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-section img {
+  width: 420px;
+  object-fit: cover;
+}
+
+.hero-content {
+  color: #272727;
+}
+
+.hero-title {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.hero-content p {
+  max-width: 400px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.button {
+  margin-top: 25px;
+  padding: 14px 20px;
+  border-radius: 5px;
+  background-color: #e55473;
+  color: #fff;
+  font-size: 12px;
+  border: none;
+}
+
+/************** Hero section **************/
+
+/*------------- Featured flower section -------------*/
+
+.featured-container {
+  width: 77%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.featured-heading {
+  text-align: center;
+  color: #272727;
+}
+
+.featured-heading h2 {
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.featured-heading p {
+  margin-top: 20px;
+  max-width: 530px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #27272798;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.box-container .box figure {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-top: 110px;
+  background-color: aqua;
+  border-top-left-radius: 80%;
+  border-top-right-radius: 80%;
+}
+
+.box-container .box {
+  width: 100%;
+  text-align: center;
+}
+
+.box-container .box:nth-child(1) figure {
+  background-color: #a7216228;
+}
+
+.box-container .box:nth-child(2) figure {
+  background-color: #0598a029;
+}
+
+.box-container .box:nth-child(2) {
+  margin: 0 15px;
+}
+
+.box-container .box:nth-child(3) figure {
+  background-color: #477d1123;
+}
+
+.box-container .box img {
+  height: 250px;
+}
+
+.box-container .box p {
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+/************** Featured flower section **************/
+
+/*------------- Promise section -------------*/
+
+.promise-section {
+  width: 77%;
+  background-color: #27272715;
+  margin: 35px auto;
+  text-align: center;
+}
+
+.promise-section .promise-box-container {
+  padding: 45px 0;
+  width: 78%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.promise-section .promise-box-container .promise-box {
+  width: 100%;
+}
+.promise-section .promise-box-container .promise-box img {
+  height: 55px;
+}
+
+.promise-section .promise-box-container .promise-box p {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/************** Promise section **************/
+
+/*------------- Hot deal section -------------*/
+
+.hot-deal-section {
+  margin-top: 45px;
+  background-color: #e5547310;
+}
+
+.hot-deal-section .hot-deal-container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hot-deal-section .hot-deal-container img {
+  height: 380px;
+  padding: 60px 0;
+}
+
+.hot-deal-section .hot-deal-container .deal-content {
+  width: 55%;
+  text-align: center;
+}
+
+.hot-deal-section .hot-deal-container .deal-content h2 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.hot-deal-section .hot-deal-container .deal-content h2 span {
+  color: #e55473;
+}
+
+.hot-deal-section .hot-deal-container .deal-content p {
+  margin-top: 20px;
+  color: #272727a9;
+  font-size: 15px;
+}
+
+/************** Hot deal section **************/
+
+/*------------- Instagram section -------------*/
+
+.instagram-section {
+  width: 77%;
+  margin: 0 auto;
+  margin: 85px auto;
+  text-align: center;
+}
+
+.instagram-section .instagram-collage {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.instagram-section .instagram-collage img {
+  height: 285px;
+}
+
+.instagram-section .instagram-content h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.instagram-section .instagram-content p {
+  font-size: 15px;
+  width: 480px;
+  margin: 15px auto;
+  font-weight: 350;
+}
+
+/************** Instagram section **************/
+
+/*------------- Newsletter section -------------*/
+
+.newsletter-container {
+  width: 77%;
+  margin: 40px auto;
+  height: 300px;
+  background-image: url("../Flower Asset/Rectangle 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.newsletter-container .newsletter-form input {
+  width: 450px;
+  padding: 13px 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-right: 7px;
+}
+
+.newsletter-container .newsletter-content h2 {
+  font-weight: 800;
+}
+
+.newsletter-container .newsletter-content P {
+  margin: 12px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+/************** Newsletter section **************/
+
+/*------------- Footer section -------------*/
+
+#footer {
+  background-color: #111010;
+  color: #fff;
+  text-align: center;
+}
+
+#footer .footer-content {
+  height: 300px;
+  width: 550px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#footer .footer-content h2 {
+  font-size: 35px;
+  font-weight: 800;
+  color: #e55473;
+  margin-bottom: 18px;
+}
+
+#footer .footer-content h2 span {
+  color: #fff;
+}
+
+#footer .footer-content .footer-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  line-height: 23px;
+  color: #ffffffb9;
+}
+
+#footer .footer-content .copyright-paragraph {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff6a;
+}
+
+/************** Footer section **************/
